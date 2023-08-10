@@ -1,0 +1,9 @@
+db:
+  host: RDS_HOSTNAME
+  username: RDS_USERNAME
+  password: RDS_PASSWORD
+  synchronize: true
+  # entity 가 추가될 수 있는데, 시작할 때마다 entity 를 새롭게 확인!
+  # 운영 환경(production.yaml 에서는 false. 새롭게 확인하다가 데이터가 날아갈 수 있다.
+
+
