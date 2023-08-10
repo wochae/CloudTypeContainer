@@ -4,7 +4,7 @@ server:
 db:
   type: 'postgres'
   port: 5432
-  database: RDS_DB_NAME || 'pingpong4'
+  database: RDS_DB_NAME
 
 jwt:
   expiresIn: 3600
