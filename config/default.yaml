@@ -2,7 +2,7 @@ server:
   port: 4000
 
 db:
-  type: RDS_TYPE
+  type: 'postgres'
   port: 5432
   database: RDS_DB_NAME
 
